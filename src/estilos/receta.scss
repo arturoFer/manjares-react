@@ -1,0 +1,106 @@
+.wrapper-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    /*padding-top: 25px;*/
+    height: 0; 
+    margin: 2em auto;
+    /*Añadida*/
+    z-index: -1000;
+}
+
+.wrapper-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    /*Añadida*/
+    z-index: -1000;
+}
+
+.descripcion h3 {
+    text-align: center;
+    text-decoration: underline;
+    color:#61a647;
+}
+
+.descripcion p {
+    white-space: pre-wrap;
+}
+
+/*Paginador*/
+#paginador{
+    text-align:center;
+    max-width: 320px;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+#paginador p{
+    display: inline-block;
+    height: 40px;
+    font-style: italic;
+    color: #61a647;
+    width: 80px;
+    vertical-align: middle;
+}
+
+#previous, #next, #fav, #azar{
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #61a647;
+    border: 1px solid gray;
+    box-shadow:0 3px 16px rgba(0,0,0,.50);
+    vertical-align: middle;
+    /*Añadida*/
+    cursor: pointer;
+}
+
+#azar{
+    background-image: url(img/azar.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*Añadida*/
+    margin-left: .3em;
+}
+
+#fav{
+    background-image: url(img/favfalse.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*Añadida*/
+    margin-right: .3em;
+}
+
+#fav.favtrue{
+    background-image: url(img/favtrue.png);
+}
+
+#next{
+    background-image: url(img/next.png);
+    background-position: right center;
+    /*Añadida*/
+    margin-left: .30em;
+}
+
+#previous{
+    background-image: url(img/prev.png);
+    background-position: left center;
+    /*Añadida*/
+    margin-right: .30em;
+}
+
+#next:hover, #previous:hover, #fav:hover, #azar:hover{
+    background-color: #1a570d;
+}
+
+#previous.disabled, #next.disabled{
+    background-color: lightgray;
+}
+
+#previous.disabled:hover, #next.disabled{
+    background-color: darkgray;
+}

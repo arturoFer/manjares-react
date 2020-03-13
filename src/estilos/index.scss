@@ -1,0 +1,16 @@
+@font-face{
+    font-family: asapregular;
+    src: url(fonts/Asap-Regular.ttf);
+}
+
+html {
+    font-family: asapregular, Helvetica, Arial, sans-serif;
+    background-image: url(img/texture-list.jpg);
+    /*Añadida*/
+    scroll-behavior: smooth;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}

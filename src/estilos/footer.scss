@@ -1,0 +1,63 @@
+#social{
+    text-align: center;
+}
+
+#social li{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin-right: .25em;
+}
+
+#social li a{
+    display: block;
+    text-indent: -5000px;
+    border-radius: 50%;
+    background: #1a570d url(img/sprite.png) no-repeat;
+}
+
+#social li.facebook a{
+    background-position: -236px 0px;
+}
+
+#social li.instagram a{
+    background-position: -296px 0px;
+}
+
+#social li.youtube a{
+    background-position: -177px 0px;
+}
+
+#social li.gmas a{
+    background-position: 0px 0px;
+}
+
+/*Social hover*/
+#social li.facebook a:hover{
+    background-color: #3c5a99;
+}
+
+#social li.instagram a:hover{
+    background-color: #4285f4;
+}
+
+#social li.youtube a:hover{
+    background-color: #e12b28;
+}
+#social li.gmas a:hover{
+    background-color: #df5042;
+}
+
+/*Footer*/
+footer{
+    background: #61a647 url(img/texture-top.jpg) repeat;
+    color: white;
+    padding: 1em;
+}
+footer p{
+    margin: 0;
+    margin-top: 0.5em;
+    font-weight: bold;
+    text-align: center;
+}

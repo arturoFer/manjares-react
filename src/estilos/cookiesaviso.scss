@@ -1,0 +1,46 @@
+.cookies{
+    background-color: #1D560D;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+
+.cookies p{
+    margin: 0;
+    display: inline-block;
+}
+
+.cookies a{
+    color: white;
+    font-weight: bold;
+}
+
+#close_cookies{
+    color: white;
+    border-radius: 50%;
+    background-color: #61a647;
+    border: none;
+    font-weight: bolder;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    line-height: 25px;
+}
+
+#close_cookies:hover{
+    background-color: lightgreen;
+}
+
+.hidden{
+    display: none;
+}
+
+#wrapper_cookies a {
+    cursor: pointer;
+}

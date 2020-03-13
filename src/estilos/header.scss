@@ -1,0 +1,26 @@
+#top {
+    display: none;
+}
+
+@media screen and (min-width: 64em){
+
+    #top{
+        display: block;
+        margin-top: 110px;
+    }
+
+    #top.sincookies{
+        margin-top: 70px;
+    }
+    
+    #top h2{
+        margin: 0;
+        height: 200px;
+        text-align: center;
+        line-height: 200px;
+        background-image: url(img/banner.jpg);
+        color: white;
+        background-size: cover;
+        font-size: 2em;
+    }
+}
